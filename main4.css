@@ -1,0 +1,29 @@
+.yellow {
+	background-color: yellow;
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+.red {
+	background-color: red;
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+.blue {
+	background-color: blue;
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+.big {
+	border: 1px solid teal;
+	width: 600px;
+}
+.clearfix:before, .clearfix:after {
+	content:"";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
